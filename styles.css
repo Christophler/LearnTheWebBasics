@@ -50,10 +50,11 @@ p{
     padding: 4rem 10rem;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 10, 0.2);
 }       
 
 button {
+    /*Step 14: Style button class */
     background-color: rgba(66, 133, 244, 255);
     color: #fff;
     padding: 15px, 25px, 15px, 25px;
@@ -61,6 +62,17 @@ button {
     cursor: pointer;
     font-size: 24px;
     border-radius: 10px;
-    /*Step 14: Style button class */
 }
 
+button:active {
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+}
+
+button:hover {
+    background-color: #9b4090;
+    color: #00fd61;
+    border-radius: 12px;
+}

@@ -2,6 +2,9 @@
 const getJokeBtn = document.getElementById("getJokeBtn"); // add id
 const jokeText = document.getElementById("jokeText"); // add id
 
+const getTestBtn = document.getElementById("testBtn");
+const testText = document.getElementById("testText");
+
 function apiCall() { 
 
     jokeText.textContent = "Fetching a joke...";
